@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Musafir Cafe | Explore More</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #25352d;
+      background: #fffaf0;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #244c3a;
+      color: white;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 14px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 85px 20px;
+      background: #e4eadb;
+    }
+
+    .hero h1 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #244c3a;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 45px 8%;
+      text-align: center;
+    }
+
+    .cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      flex: 1 1 220px;
+      max-width: 320px;
+      box-shadow: 0 3px 12px #00000010;
+    }
+
+    footer {
+      text-align: center;
+      background: #244c3a;
+      color: white;
+      padding: 22px;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        flex-direction: column;
+      }
+
+      nav a {
+        margin: 0 6px;
+      }
+
+      .hero h1 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Musafir Cafe</h2>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#menu">Our Vibe</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <h1>Every Journey Deserves a Good Coffee</h1>
+      <p>Pause, sip, and discover your next adventure with Musafir Cafe.</p>
+      <a class="btn" href="#menu">Explore Our Vibe</a>
+    </section>
+
+    <section id="about">
+      <h2>A Cafe for Explorers</h2>
+      <p>Inspired by mountain trails, open skies, and the joy of travelling.</p>
+    </section>
+
+    <section id="menu">
+      <h2>Find Your Perfect Pause</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Fresh Coffee</h3>
+          <p>Your favourite warm drink for a refreshing break.</p>
+        </div>
+        <div class="card">
+          <h3>Travel Vibes</h3>
+          <p>A welcoming space for dreamers and explorers.</p>
+        </div>
+        <div class="card">
+          <h3>Sweet Moments</h3>
+          <p>Delicious treats to make every journey special.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      <p>Email: hello@example.com</p>
+      <p>Follow us and share your next adventure!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Musafir Cafe | Made for explorers</p>
+  </footer>
+</body>
+      </html>
